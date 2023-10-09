@@ -1,0 +1,15 @@
+
+package day1.taufik;
+
+
+public class Day1Taufik {
+
+  
+    public static void main(String[] args) {
+//    hari pertama = hallo word
+        System.out.println("hallo word");
+        System.out.println("TAK PERLU KATA-KATA YANG PENTING BUKTI NYATA");
+        
+    }
+    
+}

@@ -1,0 +1,26 @@
+package com.mycompany.day2.taufik;
+
+public class Day2Taufik {
+
+    public static void main(String[] args) {
+        String nama = "MUHAMMAD TAUFIK";
+        char GD = 'A';
+        short tanggallahir = 31;
+        int tahunlahir = 2004;
+        byte umur = 19;
+        double bb = 71.5;
+        long tnggibdn = 185;
+        float nohp = 0813193131289f;
+        boolean LANANG = true;
+        
+       System.out.println("Nama:"+nama);
+       System.out.println("Golongan darah"+GD);
+       System.out.println("Tanggal lahir"+tanggallahir);
+       System.out.println("Tahun lahir"+tahunlahir);
+       System.out.println("Umur"+umur);
+       System.out.println("Berat badan"+bb);
+       System.out.println("Tinggi badan"+tnggibdn);
+       System.out.println("No handphone"+nohp);
+       System.out.println("jenis kelamin pria"+LANANG);
+  }
+}

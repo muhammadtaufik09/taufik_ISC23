@@ -1,0 +1,29 @@
+package day3.taufik;
+
+public class Day3Taufik {
+
+    public static void main(String[] args) {
+        
+        String Nama ="Muhammad Taufik";
+        Integer Umur = 19;
+        Character Inisial ='M';
+        Byte BeratBadan = 73;
+        Short NoHP = 0;
+        float TinggiBadan = 185;
+        long  Penghasilan = 1000000;
+        double gaji = 500000;
+        Boolean PunyaPacar = false;
+        
+        System.out.println("Nama saya                : " + Nama);
+        System.out.println("Umur saya                : " + Umur);
+        System.out.println("Berinisialn              : " + Inisial);
+        System.out.println("Berat Badan  saya        : " + BeratBadan);
+        System.out.println("No HP Saya               : " + NoHP);
+        System.out.println("Tinggi saya              : " + TinggiBadan);
+        System.out.println("Penghasilan saya         : " + Penghasilan);
+        System.out.println("Gaji  saya               : " + gaji);
+        System.out.println("Saya Belum Punyua pacar  : " + PunyaPacar);
+       
+    }
+    
+}

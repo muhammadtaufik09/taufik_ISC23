@@ -1,0 +1,23 @@
+
+public class FinalVariable {
+ 
+
+    public static void main(String[] args) {
+        final double TARIF_PRM= 0.5;
+        final double TARIF_PPH= 0.4;
+        
+        
+        double penjualan = 15000.0;
+        double pendapatan = 40000.0;
+        
+        double pajakPRM = penjualan*TARIF_PRM;
+        double pajakPPH = pendapatan*TARIF_PPH;
+        
+        
+        System.out.println("ANDA DI KENAKAN PAJAK:"+pajakPRM);
+        System.out.println("ANDA DI KENAKAN PAJAK:"+ pajakPPH);
+        
+        
+    }
+    
+}

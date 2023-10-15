@@ -1,0 +1,38 @@
+package day7.taufik;
+
+import java.util.Scanner;
+
+public class Day7Taufik {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+                
+                
+                
+        float a,b;
+        char oprator;
+        
+        System.out.print("masukan nilai a : ");
+        a = input.nextFloat();
+        System.out.print("Masukan Oprator : ");
+        oprator = input.next().charAt(0);
+        System.out.print("Masukan nilai b : ");
+         b = input.nextFloat();
+        
+        switch (oprator) {
+            case '+' -> System.out.print("HASILNYA ADALAH:" + (a+b));
+            case '-' -> System.out.print("HASILNYA ADALAH: " + (a-b));
+            case '*' -> System.out.print("HASILNYA ADALAH: "+(a*b));
+            case '/' -> System.out.print("HASILNYA ADALAH: "+(a/b));
+            default -> System.out.print("OPERATOR SALAH ");
+        }
+        
+    }
+     
+
+}
+        
+        
+    
+    
+
